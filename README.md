@@ -11,8 +11,6 @@ Self-Supervised CNN-GCN Autoencoder
 - PyTorch1.2+, Python3.5+, Cuda10.0+
 - mmcv==0.4.4
 
-Our codes are based on mmcv for distributed learning.
-
 
 ```bash
 
