@@ -16,7 +16,7 @@ Self-Supervised CNN-GCN Autoencoder
 
 
 
-# this create new conda enviroment for run the model
+# this create new conda enviroment to run the model
 conda create --name gcndepth python=3.7
 conda activate gcndepth
 
