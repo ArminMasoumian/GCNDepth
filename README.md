@@ -2,7 +2,7 @@
 Self-Supervised CNN-GCN Autoencoder 
 > **GCNDepth: Self-supervised monocular depth estimation based on graph convolutional network**
 >
-> To be published ...
+> https://arxiv.org/abs/2112.06782
 
 
 ## Setup
