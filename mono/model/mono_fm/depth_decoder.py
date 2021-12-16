@@ -1,6 +1,6 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
-# Author: Duanzhixiang(zhixiangduan@deepmotion.ai)
+# Author: Armin Masoumian (masoumian.armin@gmail.com)
 
 
 import torch
