@@ -70,7 +70,7 @@ def evaluate(cfg_path, model_path, img_path, output_path):
 
 if __name__ == "__main__":
     cfg_path = '../config/cfg_kitti_fm.py'# path to cfg file
-    model_path = '/media/sconly/harddisk/weight/fm_depth.pth'# path to model weight
+    model_path = '/media/sconly/harddisk/weight/epoch_20.pth'# path to model weight
     img_path = '../assets/test.png'
     output_path = '../assets/test_disp.png' # dir for saving depth maps
     evaluate(cfg_path, model_path, img_path, output_path)
