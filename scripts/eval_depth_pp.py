@@ -122,5 +122,5 @@ def evaluate(MODEL_PATH, CFG_PATH, GT_PATH):
 if __name__ == "__main__":
     CFG_PATH = '../config/cfg_kitti_fm.py'#path to cfg file
     GT_PATH = '/media/sconly/harddisk/data/kitti/kitti_raw/rawdata/gt_depths.npz'#path to kitti gt depth
-    MODEL_PATH = '/media/sconly/harddisk/weight/fm_depth.pth'#path to model weights
+    MODEL_PATH = '/media/sconly/harddisk/weight/epoch_20.pth'#path to model weights
     evaluate(MODEL_PATH, CFG_PATH, GT_PATH)
