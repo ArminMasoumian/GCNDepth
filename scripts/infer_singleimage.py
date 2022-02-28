@@ -68,7 +68,7 @@ def evaluate(cfg_path,model_path,gt_path, output_path):
 
 if __name__ == "__main__":
     cfg_path = '../config/cfg_kitti_fm.py'# path to cfg file
-    model_path = '/media/user/harddisk/weight/fm_depth.pth'# path to model weight
+    model_path = '/media/user/harddisk/weight/epoch_20.pth'# path to model weight
     gt_path = '/media/user/harddisk/data/kitti/kitti_raw/rawdata/gt_depths.npz' # path to kitti gt depth
     output_path = '/media/user/harddisk/results' # dir for saving depth maps
     if not os.path.exists(output_path):
