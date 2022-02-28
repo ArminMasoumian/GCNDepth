@@ -88,7 +88,7 @@ def evaluate(data_path,model_path,sequence_id,height,width):
 
 if __name__ == "__main__":
     data_path='/media/user/harddisk/data/kitti/Odometry/dataset'#path to kitti odometry
-    model_path = '/media/user/harddisk/weight/fm_depth.pth'
+    model_path = '/media/user/harddisk/weight/epoch_20.pth'
     height=320
     width=1024
     sequence_id =9
