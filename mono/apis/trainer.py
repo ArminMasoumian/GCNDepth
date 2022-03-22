@@ -148,7 +148,7 @@ def _dist_train(model, dataset_train, dataset_val, cfg, validate=False):
                                      dist=True)
     ]
     # put model on gpus
-    model = MMDistributedDataParallel(model.cuda())
+    model = MMDistributedDataParallel(model.cuda(), find_unused_parameters=True)
     # build runner
     optimizer = build_optimizer(model, cfg.optimizer)
     print('cfg work dir is ', cfg.work_dir)
