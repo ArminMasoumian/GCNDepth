@@ -2,18 +2,17 @@
 Self-Supervised CNN-GCN Autoencoder 
 > **GCNDepth: Self-supervised monocular depth estimation based on graph convolutional network**
 >
-> https://arxiv.org/abs/2112.06782
+> https://www.sciencedirect.com/science/article/abs/pii/S0925231222013601
 
 If you find our work useful in your research please consider citing our paper:
 
 ```
-@misc{masoumian2021gcndepth,
-      title={GCNDepth: Self-supervised Monocular Depth Estimation based on Graph Convolutional Network}, 
-      author={Armin Masoumian and Hatem A. Rashwan and Saddam Abdulwahab and Julian Cristiano and Domenec Puig},
-      year={2021},
-      eprint={2112.06782},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{masoumian2022gcndepth,
+  title={Gcndepth: Self-supervised monocular depth estimation based on graph convolutional network},
+  author={Masoumian, Armin and Rashwan, Hatem A and Abdulwahab, Saddam and Cristiano, Julian and Asif, M Salman and Puig, Domenec},
+  journal={Neurocomputing},
+  year={2022},
+  publisher={Elsevier}
 }
 ```
 
