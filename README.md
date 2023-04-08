@@ -68,3 +68,7 @@ You can use following command to launch distributed learning of our model:
 ```
 python run.py
 ```
+
+## Graphical Abstract
+
+![](https://github.com/ArminMasoumian/GCNDepth/blob/main/Images/Graphical.png)
